@@ -7,7 +7,7 @@
 
 The goal of normtools package is to normalize data using various methods for sata scaling
 
-□ Code summary: https://github.com/agronomy4future/r_code/blob/main/Calculation_for_Growing_Degree_Days_(GDDs_%C2%BACd).ipynb
+□ Code summary: https://github.com/agronomy4future/r_code/blob/main/Normalization_Methods_for_Data_Scaling.ipynb
 
 □ Code explained: https://agronomy4future.org/archives/23118
 
