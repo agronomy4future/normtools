@@ -5,7 +5,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of normtools package is to normalize data using various methods for sata scaling
+The goal of normtools package is to normalize data using various methods for data scaling
 
 □ Code summary: https://github.com/agronomy4future/r_code/blob/main/Normalization_Methods_for_Data_Scaling.ipynb
 
