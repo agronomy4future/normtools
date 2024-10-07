@@ -1,0 +1,11 @@
+Package: normtools
+Title: Normalization Methods for Data Scaling
+Version: 0.0.0.9000
+Authors@R: 
+           person("JK", "Kim", , "agronomy4future@gmail.comm", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-9913-8768"))
+Description: Comparative Analysis of Data Scaling Techniques Using Normalization Methods
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
