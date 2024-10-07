@@ -9,7 +9,7 @@ The goal of normtools package is to normalize data using various methods for sat
 
 □ Code summary: https://github.com/agronomy4future/r_code/blob/main/Normalization_Methods_for_Data_Scaling.ipynb
 
-□ Code explained: https://agronomy4future.org/archives/23118
+□ Code explained: https://agronomy4future.org/archives/23225
 
 ## Installation
 
