@@ -74,8 +74,7 @@ z_test= normtools(df, c("season", "cultivar"), c("biomass","nitrogen","phosphoru
 
 head(z_test,5)
 season cultivar treatment   rep biomass nitrogen phosphorus Normalized_biomass mean_biomass sd_biomass
-<fct>  <fct>    <chr>     <dbl>   <dbl>    <dbl>      <dbl>              <dbl>        <dbl>      <dbl>
-  1 2022   cv1      N0            1    9.16     1.23       0.41             -1.62          32.0       14.1
+1 2022   cv1      N0            1    9.16     1.23       0.41             -1.62          32.0       14.1
 2 2022   cv1      N0            2   13.1      1.49       0.45             -1.34          32.0       14.1
 3 2022   cv1      N0            3    8.4      1.18       0.31             -1.67          32.0       14.1
 4 2022   cv1      N0            4   12.0      1.42       0.48             -1.42          32.0       14.1
@@ -92,8 +91,7 @@ robust_scaling= normtools(df, c("season", "cultivar"), c("biomass","nitrogen","p
 
 head(robust_scaling,5)
 season cultivar treatment   rep biomass nitrogen phosphorus Normalized_biomass quantile_25_biomass
-<fct>  <fct>    <chr>     <dbl>   <dbl>    <dbl>      <dbl>              <dbl>               <dbl>
-  1 2022   cv1      N0            1    9.16     1.23       0.41             -1.25                 24.4
+1 2022   cv1      N0            1    9.16     1.23       0.41             -1.25                 24.4
 2 2022   cv1      N0            2   13.1      1.49       0.45             -1.05                 24.4
 3 2022   cv1      N0            3    8.4      1.18       0.31             -1.29                 24.4
 4 2022   cv1      N0            4   12.0      1.42       0.48             -1.11                 24.4
@@ -111,8 +109,7 @@ min_max_scaling= normtools(df, c("season", "cultivar"), c("biomass","nitrogen","
 
 head(min_max_scaling,5)
 season cultivar treatment   rep biomass nitrogen phosphorus Normalized_biomass min_biomass max_biomass
-<fct>  <fct>    <chr>     <dbl>   <dbl>    <dbl>      <dbl>              <dbl>       <dbl>       <dbl>
-  1 2022   cv1      N0            1    9.16     1.23       0.41             0.0172         8.4        52.5
+1 2022   cv1      N0            1    9.16     1.23       0.41             0.0172         8.4        52.5
 2 2022   cv1      N0            2   13.1      1.49       0.45             0.106          8.4        52.5
 3 2022   cv1      N0            3    8.4      1.18       0.31             0              8.4        52.5
 4 2022   cv1      N0            4   12.0      1.42       0.48             0.0810         8.4        52.5
@@ -129,8 +126,7 @@ log_transformation= normtools(df, c("season", "cultivar"), c("biomass","nitrogen
 
 head(log_transformation,5)
 season cultivar treatment   rep biomass nitrogen phosphorus Normalized_biomass Normalized_nitrogen
-<fct>  <fct>    <chr>     <dbl>   <dbl>    <dbl>      <dbl>              <dbl>               <dbl>
-  1 2022   cv1      N0            1    9.16     1.23       0.41              1.01                0.348
+1 2022   cv1      N0            1    9.16     1.23       0.41              1.01                0.348
 2 2022   cv1      N0            2   13.1      1.49       0.45              1.15                0.396
 3 2022   cv1      N0            3    8.4      1.18       0.31              0.973               0.338
 4 2022   cv1      N0            4   12.0      1.42       0.48              1.11                0.384
